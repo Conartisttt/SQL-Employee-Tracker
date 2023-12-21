@@ -1,3 +1,9 @@
+TODOS:
+* finalize and run schema.sql
+* fill in seed.sql with departments, roles, and employees and run
+* fill in crud.js with proper queries needed to perform tasks
+* Create walkthrough video and add to README
+
 # SQL-Employee-Tracker
 
 ## Table of Contents
@@ -14,7 +20,7 @@
 
 ## Description
 
-The purpose of the application is to allow 
+The purpose of the application is to allow business owners to view and manage departments, roles, and employees in their company so that they can orgnaize and plan their business.
 
 You can find the deployed application [here](insert link to deployed application here)
 
@@ -42,7 +48,10 @@ Note page:
 * Run ```npm i``` to install dependencies needed for this application
 
 ## Usage
-
+* Create the employee database by opening terminal running the schema.sql file using command:
+```mysql -uroot < db/schema.sql```
+* Seed the database by opening terminal running the seeds.sql files using command:
+```mysql -uroot < db/seeds.sql```
 * Run the application by opening terminal and using command: 
 ```node index.js```
 
