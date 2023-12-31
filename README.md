@@ -1,6 +1,4 @@
 TODOS:
-* finalize and run schema.sql
-* fill in seed.sql with departments, roles, and employees and run
 * fill in crud.js with proper queries needed to perform tasks
 * Create walkthrough video and add to README
 
