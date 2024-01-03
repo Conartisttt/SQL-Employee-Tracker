@@ -1,7 +1,3 @@
-TODOS:
-* fill in crud.js with proper queries needed to perform tasks
-* Create walkthrough video and add to README
-
 # SQL-Employee-Tracker
 
 ## Table of Contents
@@ -20,18 +16,26 @@ TODOS:
 
 The purpose of the application is to allow business owners to view and manage departments, roles, and employees in their company so that they can orgnaize and plan their business.
 
-You can find the deployed application [here](insert link to deployed application here)
-
-The following video demonstrates the applications functionality: [SQL Tracker](insert google drive link herew)
+The following video demonstrates the applications functionality: [SQL Tracker](https://drive.google.com/file/d/1oKzb7uYT5UsHX8cI5J4Sso9u3ILXYtHq/view)
 
 The following screenshots demonstrates the applications functionality: 
-Homepage:
 <br>
-![Note Taker Homepage](insert path to screenshot here)
+Options Menu:
 <br>
-Note page:
+![Inquirer Options](./assets/selectMenu.png)
 <br>
-![Note Taker Note page](insert path to screenshot here)
+View Departments:
+<br>
+![Output for view departments](./assets/viewDepartments.png)
+<br>
+View Roles:
+<br>
+![Output for view roles](./assets/viewRoles.png)
+<br>
+View Employees:
+<br>
+![Output for view employees](./assets/viewEmployees.png)
+<br>
 
 ## Technologies Used
 
