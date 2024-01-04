@@ -46,6 +46,7 @@ function init() {
 
 init();
 
+//function written to ensure the user is done with their tasks. If not, redisplay menu. If so, kill process.
 module.exports.moreQueries = () => {
     inquirer
         .prompt({
