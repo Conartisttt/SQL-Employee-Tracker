@@ -16,7 +16,7 @@
 
 The purpose of the application is to allow business owners to view and manage departments, roles, and employees in their company so that they can orgnaize and plan their business.
 
-The following video demonstrates the applications functionality: [SQL Tracker](https://drive.google.com/file/d/1oKzb7uYT5UsHX8cI5J4Sso9u3ILXYtHq/view)
+The following video demonstrates the applications functionality: [SQL Employee Tracker](https://drive.google.com/file/d/1rNSyik4lBc89A8BRLrJo0qhNUnLtDCev/view)
 
 The following screenshots demonstrates the applications functionality: 
 <br>
