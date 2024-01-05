@@ -9,37 +9,35 @@ function init() {
         .then((response) => {
             const answer = response.InitialQuestion;
             console.log(answer);
-            switch (answer) {
-                case "View All Departments":
-                    const crud1 = new CrudDB;
-                    crud1.viewDepartments();
-                    break;
-                case "View All Roles":
-                    const crud2 = new CrudDB;
-                    crud2.viewRoles();
-                    break;
-                case "View All Employees":
-                    const crud3 = new CrudDB;
-                    crud3.viewEmployees();
-                    break;
-                case "Add A Department":
-                    const crud4 = new CrudDB;
-                    crud4.addDepartment();
-                    break;
-                case "Add A Role":
-                    const crud5 = new CrudDB;
-                    crud5.addRole();
-                    break;
-                case "Add An Employee":
-                    const crud6 = new CrudDB;
-                    crud6.addEmployee();
-                    break;
-                case "Update An Employee Role":
-                    const crud7 = new CrudDB;
-                    crud7.updateEmployee();
-                    break;
-                default:
-                    break;
+            if (!answer) {
+                return process.exit;
+            } else {
+                const crud = new CrudDB;
+                switch (answer) {
+                    case "View All Departments":
+                        crud.viewDepartments();
+                        break;
+                    case "View All Roles":
+                        crud.viewRoles();
+                        break;
+                    case "View All Employees":
+                        crud.viewEmployees();
+                        break;
+                    case "Add A Department":
+                        crud.addDepartment();
+                        break;
+                    case "Add A Role":
+                        crud.addRole();
+                        break;
+                    case "Add An Employee":
+                        crud.addEmployee();
+                        break;
+                    case "Update An Employee Role":
+                        crud.updateEmployee();
+                        break;
+                    default:
+                        break;
+                }
             }
         });
 };
